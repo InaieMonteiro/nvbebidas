@@ -18,7 +18,7 @@ root.render(
     <BrowserRouter>
        <Routes>
          <Route path='/pages' element={ <Inicio />} />
-         <Route path='primeira' element={ <Primeira />} />
+         <Route path='/' element={ <Primeira />} />
          <Route path='menu' element={ <Menuzin/>} />
          <Route path='cardapio' element={ <Cardapio />} />
          <Route path='promocoes' element={ <Promocoes />} />
