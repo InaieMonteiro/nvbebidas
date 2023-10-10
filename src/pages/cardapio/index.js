@@ -15,7 +15,7 @@ export default function () {
 
             <div className='cabecalho-batata'>
                 <h1>BATATA FRITA</h1>
-                <a href='http://localhost:3000/primeira'><strong>Voltar Para Pagina Inicial</strong> </a>
+                <a href='http://localhost:3000'><strong>Voltar Para Pagina Inicial</strong> </a>
                 <div className='cor'></div>
             </div>
             <div className='cardapio'>

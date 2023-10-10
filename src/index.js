@@ -8,6 +8,7 @@ import Menuzin from '../src/pages/menuzin';
 import Cardapio from '../src/pages/cardapio';
 import Promocoes from '../src/pages/promocoes';
 import Remover from '../src/pages/remover';
+import Cadastro from '../src/pages/cadastro';
 
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
@@ -18,15 +19,15 @@ root.render(
     <BrowserRouter>
        <Routes>
          <Route path='/pages' element={ <Inicio />} />
-         <Route path='primeira' element={ <Primeira />} />
+         <Route path='/' element={ <Primeira />} />
          <Route path='menu' element={ <Menuzin/>} />
          <Route path='cardapio' element={ <Cardapio />} />
          <Route path='promocoes' element={ <Promocoes />} />
          <Route path='remover' element={ <Remover />} />
+         <Route path='cadastro' element={ <Cadastro />} />
        </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
 
 
-// teste

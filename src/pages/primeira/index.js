@@ -53,7 +53,7 @@ export default function () {
 
             </div>
             <div className='but'>
-                <a href='http://localhost:3000/consulta'><strong>CADASTRE-SE</strong> </a>
+                <a href='http://localhost:3000/cadastro'><strong>CADASTRE-SE</strong> </a>
                 <a><strong>PEDIDOS VILA OLIMPIA</strong></a>
                 <a><strong>PEDIDOS NAÇOES UNIDAS</strong></a>
             </div>
