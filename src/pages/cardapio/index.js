@@ -30,7 +30,7 @@ export default function () {
                                     <div className='pedido'>
                                         <h1>R$ 20,90</h1>
 
-                                        <a><strong>Fazer Pedido-></strong></a>
+                                        <a><strong>Fazer Pedido-</strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ export default function () {
                                     <h1><span>BATATA COM CHEDDAR E BACON  (B)</span></h1>
                                     <div className='pedido1'>
                                         <h1><strong>R$ 25,90</strong></h1>
-                                        <a><strong>Fazer Pedido-></strong></a>
+                                        <a><strong>Fazer Pedido-</strong></a>
                                     </div>
 
                                 </div>
@@ -61,7 +61,7 @@ export default function () {
                                     <h1><span>BATATA NORMAL  (A)</span></h1>
                                     <div className='pedido2'>
                                    <h1><strong>R$ 15,00</strong></h1>
-                                        <a><strong>Fazer Pedido-></strong></a>
+                                        <a><strong>Fazer Pedido-</strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ export default function () {
                                     <h1><span>BATATA NORMAL  (B)</span></h1>
                                     <div className='pedido2'>
                                    <h1><strong>R$ 17,90</strong></h1>
-                                        <a><strong>Fazer Pedido-></strong></a>
+                                        <a><strong>Fazer Pedido-</strong></a>
                                     </div>
                                 </div>
                             </div>
