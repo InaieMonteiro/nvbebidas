@@ -71,16 +71,18 @@
   
   .buttons{
   padding: 10px;
+  background-color: red;
   }
   
   .buttons img{
-      color: #FFF;
-      width: 37px;
-      height: 32px;
-      padding: 7px;
-      display: flex;
-      justify-content: center;
-      background: none;
+    color: #FFF;
+    width: 37px;
+    height: 32px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    background: none;
+    border: solid red 2px;
   }
   
   .buttons button:hover{
@@ -94,31 +96,26 @@
       border: #FFE500;
       width: 45px;
       
+      
   }
   
   .carrinho{
       display: flex;
+      justify-content:space-between;
+      align-items: center;
       flex-direction: row;
-     justify-content: flex-start;
-      padding: 0 15px 10px 0;  
-  }
+      padding: 5px;
+      max-width: 110px;
+      width: 100%;
+      
+    }
   
   .carrinho button:hover{
     background-color: #Fff;
   cursor: pointer;
   }
   
-  
-  
-  .botao{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      
-  }
-  
-  
+
   .carrinho img{
       color: #FFF;
       width: 35px;
@@ -131,6 +128,10 @@
   
   
   .carrinho button{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background-color: #FFE500;
       border-radius: 10px;
       border: #FFE500;

@@ -9,9 +9,12 @@ import Cardapio from '../src/pages/cardapio';
 import Promocoes from '../src/pages/promocoes';
 import Remover from '../src/pages/remover';
 import Cadastro from '../src/pages/cadastro';
+import CadastroAdm  from './pages/cadastroAdm';
+
 
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +28,8 @@ root.render(
          <Route path='promocoes' element={ <Promocoes />} />
          <Route path='remover' element={ <Remover />} />
          <Route path='cadastro' element={ <Cadastro />} />
+         <Route path='cadastroAdm' element={ <CadastroAdm />} />
+        
        </Routes>
     </BrowserRouter>
   </React.StrictMode>

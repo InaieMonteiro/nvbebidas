@@ -8,6 +8,7 @@ import burguezada from '../../assets/images/burguezada.svg';
 export default function () {
 
 
+
     return (
 
         <div className='corzinha'>
@@ -29,20 +30,15 @@ export default function () {
                 <a><strong><span>COMBOS</span></strong></a>
                 <a href='http://localhost:3000/promocoes'><strong><span>PROMOÇÕES DA SEMANA</span></strong></a>
 
-                <div className='botao'>
-                    <div className='buttons'>
-                        <button onclick= " = 'http://localhost:3000/cardapio'" >
-                        <button onclick= " = 'http://localhost:3000/promocoes'" />
-                            <img src ={pessoa} />
-                        </button>
-                    </div>
+            
            
-                    <div className='carrinho'>
+                <div className='carrinho'>
+                        <button>
+                            <img src={pessoa} style={{width: "29px", height:"25px"}}/>
+                        </button>
                         <button  >
                             <img src={carrinho} />
                         </button>
-                    </div>
-
                 </div>
 
             </div>
