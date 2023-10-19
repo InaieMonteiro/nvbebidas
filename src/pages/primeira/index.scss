@@ -5,7 +5,7 @@
   }
   
   .corzinha{
-    background-color: #000000;
+    background-image: url(../../assets/images/fundonv.png);
     display: flex;
     flex-direction: column;
     height: 150vh;
@@ -22,7 +22,7 @@
       align-items: center;
   }
   
-  * a {
+  .corzinha a {
       color: #FFF;
        display: flex;
       flex-direction: row;
@@ -204,7 +204,7 @@
   }
   
   
-  .but{
+  .bu{
       display: flex;
       flex-direction: column;
       align-items: center;

@@ -30,11 +30,11 @@ export default function () {
 
                 </div>
 
-                <a ><strong><span>SOBRE NÓS</span></strong></a>
-                <a ><strong><span>HOME</span></strong></a>
+                <a ><strong><span>INICIO</span></strong></a>
+                <a ><strong><span>QUEM SOMOS</span></strong></a>
                 <a href='http://localhost:3000/cardapio'><strong><span>CARDÁPIO</span></strong></a>
                 <a><strong><span>COMBOS</span></strong></a>
-                <a href='http://localhost:3000/promocoes'><strong><span>PROMOÇÕES DA SEMANA</span></strong></a>
+                <a href='http://localhost:3000/promocoes'><strong><span>UNIDADES</span></strong></a>
 
             
            
