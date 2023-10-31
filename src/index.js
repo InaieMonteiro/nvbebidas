@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
+import './index.css';
+
 
 import Inicio from '../src/pages/inicio/index';
 import Primeira from '../src/pages/primeira';
@@ -37,4 +38,3 @@ root.render(
 );
 
 
-// teste

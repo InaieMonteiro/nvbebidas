@@ -1,25 +1,27 @@
-import face from '../../assets/images/face.png'
-import linkedin from '../../assets/images/linkedin.png'
-import google from '../../../src/assets/images/google.png'
-import mobile from '../../assets/images/celular_png.png'
-import './index.scss'
+import './index.scss';
+import celular from '../cadastro/img/celular.png'
+import face from '../cadastro/img/facebook.png'
+import google from '../cadastro/img/google.png'
+
+
+
 
 function Cadastro() {
     return (
 
-        <div className='pag1'>
+        <div className='mae111'>
 
          <main>
         <h1>Criar Conta</h1>
         <div className="social-media">
             <a href="#">
-                <img src={face}></img>
+             <img src={google} />
+            </a>
+            <a href="">
+            <img src={face} />
             </a>
             <a href="#">
-            <img src={google}></img>
-            </a>
-            <a href="#">
-            <img src={linkedin}></img>
+          
             </a>
         </div>
 
@@ -43,12 +45,19 @@ function Cadastro() {
                 <input type="password" id="password" name="password"/>
             </label>
 
+            <div className='login'>
+                <a href='http://localhost:3000/loginCliente'>Já tem conta? Faça login</a>
+            </div>
+
+
             <input type="submit" value="Prosseguir" id="button"/>
 
             </form>
+          
+
     </main>
     <section class="images">
-        <img src={mobile} alt="Mobile"></img>
+        <img src={celular} />
 
     </section>
 
