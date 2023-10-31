@@ -1,39 +1,44 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
+import './index.css';
 
-import Inicio from '../src/pages/inicio/index';
-import Primeira from '../src/pages/primeira';
-import Menuzin from '../src/pages/menuzin';
-import Cardapio from '../src/pages/cardapio';
-import Promocoes from '../src/pages/promocoes';
-import Remover from '../src/pages/remover';
-import Cadastro from '../src/pages/cadastro';
-import CadastroAdm  from './pages/cadastroAdm';
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
-
-
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Cadastro from './pages/cadastro'
+import Promo from './pages/promo'
+import Login from './pages/login'
+import Promounico from './pages/promounico'
+import Historico from './pages/historico'
+import Home from './pages/home'
+import Batata from './pages/batata'
+import LoginCliente from './pages/loginCliente'
+import CadastroProduto from './pages/cadastroProduto'
+import Passando from './pages/passando';
+import Contato from './pages/contato';
+import Fogo from './pages/fogo'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-       <Routes>
-         <Route path='/pages' element={ <Inicio />} />
-         <Route path='/' element={ <Primeira />} />
-         <Route path='menu' element={ <Menuzin/>} />
-         <Route path='cardapio' element={ <Cardapio />} />
-         <Route path='promocoes' element={ <Promocoes />} />
-         <Route path='remover' element={ <Remover />} />
-         <Route path='cadastro' element={ <Cadastro />} />
-         <Route path='cadastroAdm' element={ <CadastroAdm />} />
-        
-       </Routes>
+    <Routes>
+      <Route path='login'  element={<Login/>} />
+      <Route path='/promo' element={<Promo/>} />
+      <Route path='cadastro' element={<Cadastro/>} />
+      <Route path='unico' element={<Promounico/>} />
+      <Route path='hisc' element={<Historico/>} />
+      <Route path='/' element={ <Home/>} />
+      <Route path='batata' element={< Batata/>} />
+      <Route path='LoginCliente' element={<LoginCliente/>} />
+      <Route path='cadasrtoProduto' element={<CadastroProduto/>}  />
+      <Route path='passando' element={<Passando/>} />
+      <Route path='contato' element={<Contato/>} />
+      <Route path='fogo' element={<Fogo/>} />
+
+    </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
 
 
-// teste
