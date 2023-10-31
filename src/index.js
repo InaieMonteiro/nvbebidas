@@ -10,7 +10,7 @@ import Promocoes from '../src/pages/promocoes';
 import Remover from '../src/pages/remover';
 import Cadastro from '../src/pages/cadastro';
 import CadastroAdm  from './pages/cadastroAdm';
-
+import Introducao from './pages/introducao';
 
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
@@ -29,6 +29,7 @@ root.render(
          <Route path='remover' element={ <Remover />} />
          <Route path='cadastro' element={ <Cadastro />} />
          <Route path='cadastroAdm' element={ <CadastroAdm />} />
+         <Route path='introducao' element={ <Introducao />} />
         
        </Routes>
     </BrowserRouter>
