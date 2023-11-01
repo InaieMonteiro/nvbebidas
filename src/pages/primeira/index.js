@@ -14,7 +14,6 @@ export default function () {
         navigate('/cadastroAdm')
     }
 
-
     return (
 
         <div className='corzinha'>
