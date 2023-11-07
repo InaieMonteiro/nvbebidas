@@ -42,33 +42,35 @@ export default function introducao() {
                 </div>
 
                 <div className='gra'>
+                    <div className='corzinhadoita1'></div>
                     <p> Uma explosão de sabor e crocância para fazer o seu<br></br>
                         paladar correr de alegria. Deliciosamente crocantes e <br>
                         </br> irresistíveis!"</p>
                 </div>
-
                 <div className='meio'>
                     <button onClick='http://localhost:3000/cardapio' >Ver opções</button>
                 </div>
+                <div id='teste1'></div>
             </div>
 
             <h1 className='t3'>Se hidrate</h1>
             <div className='c3'>
+                
                 <div className='h4'>
                     <img src={bebidas} />
                     <h2>Bebidas</h2>
                 </div>
 
                 <div className='fo'>
+                    <div className='corzinhadoita2'></div>
                     <p>  A  corrida mais saborosa para saciar a sua sede.<br></br>
                         Acompanhe seu sprint de sabores com nossas opções<br>
                         </br> refrescantes e hidrate seu paladar.</p>
                 </div>
-
                 <div className='final'>
                     <button href='http://localhost:3000/cardapio'>Ver opções</button>
                 </div>
-
+                  <div id='teste2'></div>
             </div>
         </div>
     )
