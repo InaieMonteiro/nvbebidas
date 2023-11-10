@@ -20,7 +20,7 @@ export default function () {
             <div className='cabecudo'>
                 <img src={logo} />
                 <a> QUEM SOMOS</a>
-                <a>CARDÁPIO</a>
+                <a href='http://localhost:3000/introducao'>CARDÁPIO</a>
                 <a>COMBOS</a>
                 <a href='http://localhost:3000/contato'> CONTATO</a>
                 <button onClick={dastro}>Cadastre-se</button>
