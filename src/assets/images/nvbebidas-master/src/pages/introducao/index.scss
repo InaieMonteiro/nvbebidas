@@ -1,0 +1,239 @@
+* {
+  margin: 0%;
+}
+
+.caixa1 {
+  color: antiquewhite;
+  padding: 2%;
+}
+
+.caixa2 h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+.t1 {
+  color: white;
+  text-align: center;
+}
+
+.c1  {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  padding: 45px;
+ 
+}
+
+
+.c1 .h2{
+  display: flex;
+}
+.para{
+  display: flex;
+  align-items: flex-start;
+  
+  padding-right: 10px;
+  border-top: 1px white solid;
+  border-right: 1px solid white;
+}
+.corzinhadoita{
+  background-color: white;
+  height: 50px;
+  width: 1px;
+}
+#teste{
+  position: relative;
+  right: 43.9vh;
+  background-color: rgb(179, 0, 0);
+  width:19vh;
+  height: 2px;
+}
+.comeco{
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+}
+.comeco button{
+  display: flex;
+  align-items: end;
+}
+.meio button{
+  display: flex;
+  background-color: yellow;
+  align-items: end;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.final button{
+  display: flex;
+  background-color: yellow;
+  align-items: end;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.c1 img {
+  height: 150px;
+  padding-right: 2%;
+  text-align: right;
+}
+
+.comeco button {
+ display: flex;
+  background-color: yellow;
+  align-items: end;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.t2 {
+  color: white;
+}
+
+.c2 {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  
+  align-items: end;
+  padding: 45px;
+}
+
+.c2 img {
+  height: 150px;
+  position: absolute;
+  right: 50px;
+}
+
+.meio {
+  height: 7%;
+  width: 7%;
+  background-color: yellow;
+}
+.meio{
+  display: flex;
+  align-items: flex-end;
+  height: 15%;
+}
+.meio button{
+  display: flex;
+  background-color: yellow;
+  align-items: end;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.gra{
+  display: flex;
+  align-items: flex-start;
+  
+  padding-right: 10px;
+  border-top: 1px white solid;
+  border-left: 1px solid white;
+}
+#teste1{
+  
+  position: relative;
+  right: 43.9vh;
+  background-color: rgb(179, 0, 0);
+  width:19vh;
+  height: 2px;
+}
+
+.t3 {
+  color: white;
+  text-align: center;
+}
+
+.c3 h1 {
+  color: white;
+}
+.h4 {
+  padding-right: 5%;
+}
+.c3 {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+ 
+  align-items: end;
+  padding: 45px;
+}
+
+.c3 img {
+  height: 150px;
+  padding-right: 5%;
+
+}
+.fo{
+  display: flex;
+  align-items: flex-start;
+  
+  padding-right: 10px;
+  border-top: 1px white solid;
+  border-right: 1px solid white;
+
+}
+.corzinhadoita2{
+  background-color: white;
+  height: 50px;
+  width: 1px;
+}
+#teste2{
+  
+  position: relative;
+  right: 43.9vh;
+  background-color: rgb(179, 0, 0);
+  width:19vh;
+  height: 2px;
+}
+
+
+.final {
+  height: 7%;
+  width: 7%;
+  background-color: yellow;
+}
+
+.caixa1 h2 {
+  padding-right: 5%;
+}
+.h3{
+  flex-direction: column;
+}
+
+.c1 p {
+  padding: 3%;
+}
+
+
+.c2 p {
+  padding: 3%;
+}
+
+.c3 p {
+  padding: 3%;
+}
+
+.h3 h2{
+  padding-left: 1300%;
+  padding-bottom: 200%;
+}

@@ -17,7 +17,8 @@ export default function introducao() {
 
                 <div className='h2'>
                     <img src={burguer} />
-                    <h2>Lanches</h2></div>
+                    <h2>Lanches</h2>
+                </div>
 
 
                 <div className='para'>
@@ -27,8 +28,8 @@ export default function introducao() {
                         </br> acelerar!</p>
                     <div className='comeco'>
                         <button href='http://localhost:3000/cardapio'> Ver opções </button>
-                    </div>    
-                    
+                    </div>
+
                 </div>
                 <div id='teste'></div>
             </div>
@@ -55,7 +56,7 @@ export default function introducao() {
 
             <h1 className='t3'>Se hidrate</h1>
             <div className='c3'>
-                
+
                 <div className='h4'>
                     <img src={bebidas} />
                     <h2>Bebidas</h2>
@@ -70,7 +71,7 @@ export default function introducao() {
                 <div className='final'>
                     <button href='http://localhost:3000/cardapio'>Ver opções</button>
                 </div>
-                  <div id='teste2'></div>
+                <div id='teste2'></div>
             </div>
         </div>
     )
