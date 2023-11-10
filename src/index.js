@@ -11,7 +11,9 @@ import Remover from '../src/pages/remover';
 import Cadastro from '../src/pages/cadastro';
 import CadastroAdm  from './pages/cadastroAdm';
 import Introducao from './pages/introducao';
-import Home from './pages/home' 
+import Home from './pages/home';
+import Login from './pages/login';
+import LoginCliente from './pages/loginCliente';
 
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
@@ -31,6 +33,9 @@ root.render(
          <Route path='cadastroAdm' element={ <CadastroAdm />} />
          <Route path='introducao' element={ <Introducao />} />
         <Route path='/' element={ <Home /> } /> 
+        <Route path='/login' element={ <Login />} />
+        <Route path='/loginCliente' element={ <LoginCliente /> } />
+
        </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -48,7 +48,7 @@ export default function introducao() {
                         paladar correr de alegria. Deliciosamente crocantes e <br>
                         </br> irresistíveis!"</p>
                 </div>
-                <div className='meio'>
+                <div className='mei0o'>
                     <button onClick='http://localhost:3000/cardapio' >Ver opções</button>
                 </div>
                 <div id='teste1'></div>
