@@ -7,6 +7,7 @@ import email from '../contato/img/email.png'
 
 
 export default function () {
+
     return (
         <div className='tudinho'>
             <div className='sur'>
@@ -15,6 +16,7 @@ export default function () {
             </div>
             <div className='desc'>
                
+              
                 <div className='loc'>
                     <div className='alin'>
                         <div className='one1'>
@@ -26,7 +28,7 @@ export default function () {
                             <h2>RUA EUZEBIO COCHI, 1237 NAÇÕES UNIDAS - SP CEP: 04890-020</h2>
                         </div>
                         <div className='thre'>
-                            <img src={email} />
+                            <img src={email}  /> 
                             <h2>therunnerburguers@gmail.com</h2>
                         </div>
                         <div className='four'>
